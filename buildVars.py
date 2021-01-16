@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+from datetime import datetime
 
 # Build customizations
 # Change this file instead of sconstruct or manifest files, whenever possible.
@@ -26,7 +27,7 @@ addon_info = {
 	"addon_description": _("""NAU App Module.
 This addon improves the accessibility of NAU - database of normative legal acts of Ukraine. To learn more, press the add-on help button."""),
 	# version
-	"addon_version": "dev",
+	"addon_version": datetime.now().strftime("%y.%m.%d"),
 	# Author(s)
 	"addon_author": "Oleksandr Gryshchenko <grisov.nvaccess@mailnull.com>",
 	# URL for the add-on documentation support
